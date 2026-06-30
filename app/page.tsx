@@ -19,7 +19,7 @@ const weeks = [
   },
   {
     week: "Week 2",
-    title: "Build customer-zero workflows",
+    title: "Build Customer Zero workflows",
     goal: "Use The Hog to run The Hog's own GTM.",
     actions: [
       "Build a workflow that finds companies showing real-time buying signals",
@@ -37,7 +37,7 @@ const weeks = [
     goal: "Make internal GTM workflows externally reusable.",
     actions: [
       "Turn the best internal workflows into public demo examples",
-      "Find 100 YC companies likely to need AI outbound infrastructure",
+      "Find 100 YC companies stitching together Clay, Apollo, scrapers, and search APIs",
       "Monitor a category across X, Reddit, news, and job posts for buying signals",
       "Replace a Clay plus Apollo plus scraper stack with one API call and agent workflow",
       "Package each demo as a short page, video, or API recipe and use it in outbound and founder-led content",
@@ -54,7 +54,7 @@ const weeks = [
       "Identify which demo workflows get copied or requested most often",
       "Feed customer objections into docs, examples, and product improvements",
       "Build a simple GTM dashboard around source, signal, persona, workflow, conversion, and revenue",
-      "Turn the first month into a repeatable customer-zero operating system",
+      "Turn the first month into a repeatable Customer Zero operating system",
     ],
     output:
       "A loop where The Hog's own GTM motion improves the product, messaging, docs, and pipeline every week.",
@@ -124,7 +124,7 @@ const metrics = [
       "Replies by persona",
       "Meetings by use case",
       "API signups by workflow",
-      "Revenue influenced by customer-zero plays",
+      "Revenue influenced by Customer Zero plays",
       "Objections converted into docs or product changes",
     ],
   },
@@ -243,7 +243,7 @@ export default function Home() {
                 GTM role.
               </p>
               <p>
-                The line that mattered was "customer zero for The Hog API." That
+                The line that mattered was "Customer Zero for The Hog API." That
                 is the right framing. If The Hog helps teams find signals,
                 enrich context, monitor markets, and decide what to do next,
                 then The Hog's own GTM motion should prove that better than any
@@ -261,6 +261,10 @@ export default function Home() {
             <p className="mb-6 text-lg leading-8 text-ink">
               The Hog is not just another outbound tool. It is the context layer
               for agents and lean GTM teams.
+            </p>
+            <p className="mb-6 text-lg leading-8 text-ink">
+              The real buyer is not buying more data. They are buying fewer
+              brittle workflows.
             </p>
             <div className="mb-6 rounded-lg border border-line bg-white p-5 shadow-memo">
               <p className="mb-4 text-base font-semibold leading-7 text-ink">
